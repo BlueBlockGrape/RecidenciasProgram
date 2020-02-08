@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="projectResidencias.Principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div> 
+
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                    <a href="#" class="navbar-brand">Sistemas</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                        data-target="#navbarMenu" aria-controls="navbarMenu" 
+                        aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarMenu">
+                        <asp:ContentPlaceHolder ID="menus" runat="server">
+                            <!-- Codigo incrustado en la pagina PrincipalAlumno.master en sección menu -->
+                         </asp:ContentPlaceHolder>
+                    </div>
+                </nav>
+
+
+    
+            
+            <asp:ContentPlaceHolder ID="contenido" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="scripts" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

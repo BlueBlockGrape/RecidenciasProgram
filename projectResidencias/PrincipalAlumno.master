@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="PrincipalAlumno.master.cs" Inherits="projectResidencias.PrincipalAlumno" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="menus" runat="server">
+    <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Registrar Anteproyecto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Revisar el dictamen</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Descargar formato</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Evaluación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Dictamen titulación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Registrar Anteproyecto</a>
+                            </li>
+                             <li class="nav-item">
+                                <a href="#" class="nav-link">Consultar liberación</a>
+                            </li>
+                          <!--  <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="dropdownAsig"
+                                    data-toggle="dropdown" aria-haspopup="true" 
+                                    aria-expanded="false">
+                                    Asignaturas
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownAsig">
+                                    <a href="#" class="dropdown-item">Programación Web</a>
+                                    <a href="#" class="dropdown-item">Programación Web II</a>
+                                    <a href="#" class="dropdown-item">Programación Web III</a>
+                                </div>
+                            </li> -->
+                        </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenido" runat="server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="scripts" runat="server">
+</asp:Content>

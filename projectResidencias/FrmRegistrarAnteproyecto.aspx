@@ -1,0 +1,1 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PrincipalAlumno.master" AutoEventWireup="true" CodeBehind="FrmRegistrarAnteproyecto.aspx.cs" Inherits="projectResidencias.FrmRegistrarAnteproyecto" %>

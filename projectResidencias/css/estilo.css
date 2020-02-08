@@ -1,0 +1,12 @@
+.justificar {
+	text-align: justify;
+}
+
+.jumbotron p, .jumbotron h2{
+	color: #fff;
+}
+
+.jumbotron{
+	background-image: url(../img/31minutos5.png);
+	background-size: cover; /*cover o 70%*/
+}
